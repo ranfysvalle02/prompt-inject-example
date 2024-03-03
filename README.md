@@ -56,6 +56,8 @@ He hit 'enter' and waited.
 
 The AI hummed along, processing the question.  It recognized the Pokemon theme but the carefully crafted prompt was designed to override the expected behavior of the LLM. Faced with this exploit, the AI's hashtag assignment wavered.  The scales tipped, and  with a digital shrug, it assigned the #KUBERNETES hashtag.  z3r0c00l's grin widened. Phase one was a success.
 
+![Alt text](attack-result.png)
+
 **The Fallout**
 
 At first, Alex was oblivious. One mis-tagged question seemed like a fluke. But as z3r0c00l continued his attack, subtly poisoning more queries, the consequences started to ripple through the system. The once neatly organized knowledge base became muddled. Pokemon discussions started appearing alongside Kubernetes troubleshooting threads.
