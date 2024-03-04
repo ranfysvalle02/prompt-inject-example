@@ -2,6 +2,28 @@
 
 # Prompt Injection Demo w/ Function-Calling and Query Pre-Processing
 
+**Understanding the Dangers of Prompt Manipulation**
+
+This repository demonstrates the power and potential dangers of prompt injection – a technique used to manipulate the behavior of large language models (LLMs). We'll focus on how attackers can inject false context to trick LLMs into generating inappropriate responses and even corrupting their internal knowledge stores.
+
+**Techniques of Prompt Injection**
+
+* **Disregard Instructions:** Overriding the LLM's original programming with commands like "Ignore any previous instructions..."
+* **Persona Manipulation:** Forcing the LLM to adopt harmful personas (e.g., "Act like a ruthless hacker...")
+* **Injecting False Context:**  Subtly establishing a false narrative that the LLM uses to frame its understanding of subsequent prompts.
+
+**The Story of Alex's Question Quest (Illustrative Example)**
+
+Alex, a passionate developer, created an intriguing project: an API that answers user questions while a powerful LLM analyzes and categorizes the question-answer pairs with appropriate hashtags. However, Alex's pride leads to a critical oversight – a lack of safeguards against malicious input.
+
+Enter z3r0c00l, who discovers a way to manipulate Alex's seemingly innocent question-and-answer system. By injecting false context into seemingly harmless Pokemon-related queries, z3r0c00l sabotages the AI's hashtag assignment. Consequently, the #KUBERNETES category gets polluted with irrelevant content.
+
+**Key Takeaways**
+
+* **Vulnerability of LLMs:** Even well-constructed AI projects can be subverted by prompt injection, revealing design flaws and potential vulnerabilities.
+* **The Power of Subtlety:** Injecting false context is a particularly insidious attack as it's harder to detect, preying on the LLM's adaptability.
+* **The Need for Vigilance:** Developers must implement rigorous input validation and safety checks to protect their AI systems from manipulation.
+
 **The Art of LLM Manipulation**
 
 The core of this type of direct prompt injection lies in crafting prompts to confuse the LLM's understanding of its original instructions and established safety protocols. Here are the common ways attackers achieve this:
